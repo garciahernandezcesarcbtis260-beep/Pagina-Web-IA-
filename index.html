@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio educativo del CBTIS 260 sobre Inteligencia Artificial, sus conceptos, aplicaciones, ventajas, riesgos, ética y futuro.">
+    <meta name="theme-color" content="#0b1324">
+    <title>Inteligencia Artificial | CBTIS 260</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+<!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+        <div class="container header-main">
+            <a class="brand" href="#inicio" aria-label="Inicio del sitio">
+                <div class="brand-mark">
+                    <img src="imagenes/cbtis.png" alt="CBTIS 260">
+                </div>
+                <div class="brand-copy">
+                    <span class="brand-title">INTELIGENCIA ARTIFICIAL</span>
+                    <span class="brand-tagline">Conoce, comprende y utiliza la IA con responsabilidad.</span>
+                </div>
+            </a>
+</div>
+
+        <div class="nav-wrap">
+            <div class="container">
+                <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+                    <a class="nav-link active" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#conceptos">Conceptos</a>
+                    <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+                    <a class="nav-link" href="#impacto">Ventajas y riesgos</a>
+                    <a class="nav-link" href="#etica">Ética y futuro</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== INICIO ==================== -->
+        <section class="page-section active" id="inicio">
+            <section class="hero">
+                <div class="container hero-layout">
+                    <div class="hero-copy">
+                        <div class="section-kicker"><span></span> TECNOLOGÍA · APRENDIZAJE · INNOVACIÓN</div>
+                        <h1>La inteligencia que está transformando <em>nuestro presente.</em></h1>
+                        <p class="hero-lead">
+                            La Inteligencia Artificial reúne métodos que permiten analizar información,
+                            reconocer patrones, generar contenido y apoyar distintas actividades humanas.
+                            Explora sus fundamentos, aplicaciones, oportunidades y desafíos.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#conceptos" class="btn btn-primary">Explorar el tema <span>↗</span></a>
+                            <a href="#aplicaciones" class="btn btn-ghost">Ver aplicaciones</a>
+                        </div>
+
+                        <div class="hero-stats">
+                            <div><strong>01</strong><span>Conceptos esenciales</span></div>
+                            <div><strong>02</strong><span>Aplicaciones reales</span></div>
+                            <div><strong>03</strong><span>Uso responsable</span></div>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual">
+                        <div class="hero-image-shell">
+                            <img src="imagenes/ia1.jpg" alt="Representación visual de Inteligencia Artificial">
+                            <div class="hero-floating-card">
+                                <span class="floating-label">IA</span>
+                                <div>
+                                    <strong>Una tecnología en evolución</strong>
+                                    <small>Datos · modelos · aprendizaje · generación</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-bottom-line"></div>
+            </section>
+
+            <section class="section section-overview">
+                <div class="container">
+                    <div class="section-intro split-heading">
+                        <div>
+                            <span class="eyebrow">01 / PANORAMA</span>
+                            <h2>Entender la IA es más importante que solo utilizarla.</h2>
+                        </div>
+                        <p>
+                            La IA ya forma parte de muchas herramientas digitales. Conocer sus principios
+                            ayuda a interpretar sus resultados, identificar sus límites y aprovecharla de
+                            manera más consciente en la escuela, el trabajo y la vida cotidiana.
+                        </p>
+                    </div>
+
+                    <div class="editorial-grid">
+                        <article class="editorial-feature">
+                            <img src="imagenes/ia2.jpg" alt="Tecnología y análisis de datos">
+                            <div class="editorial-overlay">
+                                <span>01</span>
+                                <div>
+                                    <h3>Comprender cómo funciona</h3>
+                                    <p>Datos, algoritmos y modelos explican gran parte de los sistemas actuales.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <div class="editorial-side">
+                            <article class="editorial-small">
+                                <div class="small-number">02</div>
+                                <div>
+                                    <h3>Reconocer sus aplicaciones</h3>
+                                    <p>Educación, salud, industria, servicios digitales y creatividad.</p>
+                                </div>
+                            </article>
+
+                            <article class="editorial-small">
+                                <div class="small-number">03</div>
+                                <div>
+                                    <h3>Evaluar sus resultados</h3>
+                                    <p>Una respuesta generada debe analizarse y, cuando sea necesario, verificarse.</p>
+                                </div>
+                            </article>
+
+                            <article class="editorial-quote">
+                                <span>“</span>
+                                <p>La tecnología aporta valor cuando se combina con conocimiento y criterio humano.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-dark-band">
+                <div class="container">
+                    <div class="section-intro center">
+                        <span class="eyebrow">LO ESENCIAL</span>
+                        <h2>Una visión clara en tres ideas.</h2>
+                    </div>
+
+                    <div class="principle-grid">
+                        <article class="principle-card">
+                            <div class="principle-number">01</div>
+                            <div class="principle-icon">◌</div>
+                            <h3>Conceptos fundamentales</h3>
+                            <p>Datos, algoritmos, modelos, aprendizaje automático, aprendizaje profundo e IA generativa.</p>
+                        </article>
+
+                        <article class="principle-card">
+                            <div class="principle-number">02</div>
+                            <div class="principle-icon">↗</div>
+                            <h3>Aplicaciones reales</h3>
+                            <p>La IA apoya tareas de análisis, automatización, recomendación, traducción y creación de contenido.</p>
+                        </article>
+
+                        <article class="principle-card">
+                            <div class="principle-number">03</div>
+                            <div class="principle-icon">✓</div>
+                            <h3>Uso responsable</h3>
+                            <p>Privacidad, verificación, pensamiento crítico y supervisión humana siguen siendo esenciales.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section section-video-home">
+                <div class="container">
+                    <div class="section-intro split-heading">
+                        <div>
+                            <span class="eyebrow">RECURSO DESTACADO</span>
+                            <h2>Refuerza lo aprendido con este video sobre Inteligencia Artificial.</h2>
+                        </div>
+                        <p>
+                            Este recurso audiovisual permite repasar la relación entre Inteligencia
+                            Artificial, aprendizaje automático, aprendizaje profundo e IA generativa.
+                        </p>
+                    </div>
+
+                    <div class="resources-layout">
+                        <div class="video-card">
+                            <div class="video-header">
+                                <span>RECURSO PRINCIPAL</span>
+                                <strong>YouTube</strong>
+                            </div>
+
+                            <div class="video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/qYNweeDHiyU"
+                                    title="AI, Machine Learning, Deep Learning and Generative AI Explained"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+<a class="btn btn-primary"
+                               href="https://www.youtube.com/watch?v=qYNweeDHiyU"
+                               target="_blank"
+                               rel="noopener">
+                                Abrir video en YouTube ↗
+                            </a>
+                        </div>
+</div>
+                </div>
+            </section>
+
+            <section class="section section-last">
+                <div class="container visual-statement">
+                    <div class="statement-copy">
+                        <span class="eyebrow">IDEA CENTRAL</span>
+                        <h2>La IA no sustituye el criterio: lo hace más necesario.</h2>
+                        <p>
+                            Una herramienta puede analizar, generar o recomendar, pero las personas deben
+                            decidir cómo interpretar y utilizar esos resultados según el contexto.
+                        </p>
+                        <div class="statement-list">
+                            <div><span>01</span><strong>Analiza</strong><small>Procesa información y detecta patrones.</small></div>
+                            <div><span>02</span><strong>Genera</strong><small>Produce contenido a partir de entradas y modelos.</small></div>
+                            <div><span>03</span><strong>Apoya</strong><small>Complementa actividades humanas en diferentes áreas.</small></div>
+                        </div>
+                    </div>
+                    <div class="statement-image">
+                        <img src="imagenes/ia5.jpg" alt="Visualización moderna de Inteligencia Artificial">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==================== CONCEPTOS ==================== -->
+        <section class="page-section" id="conceptos" hidden>
+            <section class="inner-hero">
+                <div class="container inner-hero-grid">
+                    <div>
+                        <span class="eyebrow">02 / CONCEPTOS</span>
+                        <h1>¿Qué es la Inteligencia Artificial?</h1>
+                        <p>
+                            Es un campo de la informática que busca desarrollar sistemas capaces de realizar
+                            tareas que requieren análisis de información, reconocimiento de patrones,
+                            aprendizaje, comprensión del lenguaje o generación de contenido.
+                        </p>
+                    </div>
+                    <div class="inner-hero-image"><img src="imagenes/ia3.jpg" alt="Conceptos de IA"></div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container concept-main">
+                    <div class="concept-photo">
+                        <img src="imagenes/ia2.jpg" alt="Datos utilizados por sistemas de IA">
+                        <div class="photo-tag">DATOS + ALGORITMOS + MODELOS</div>
+                    </div>
+                    <article class="concept-copy">
+                        <span class="eyebrow">FUNCIONAMIENTO</span>
+                        <h2>Del dato al resultado.</h2>
+                        <p>
+                            Muchos sistemas de IA utilizan modelos matemáticos entrenados con datos. Durante
+                            el entrenamiento se identifican relaciones y patrones; posteriormente el sistema
+                            utiliza lo aprendido para producir resultados frente a nueva información.
+                        </p>
+
+                        <div class="concept-steps">
+                            <div><span>01</span><h3>Datos</h3><p>Información que alimenta o ayuda a entrenar un sistema.</p></div>
+                            <div><span>02</span><h3>Algoritmos</h3><p>Procedimientos que permiten procesar información y resolver tareas.</p></div>
+                            <div><span>03</span><h3>Modelos</h3><p>Representaciones matemáticas que transforman entradas en resultados.</p></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section section-light">
+                <div class="container">
+                    <div class="section-intro">
+                        <span class="eyebrow">EVOLUCIÓN</span>
+                        <h2>De la investigación a la vida cotidiana.</h2>
+                        <p>El desarrollo de la IA ha pasado por diferentes etapas y enfoques hasta llegar a herramientas capaces de trabajar con lenguaje, imágenes, audio y otros tipos de información.</p>
+                    </div>
+
+                    <div class="timeline-grid">
+                        <article><span>1950–1960</span><h3>Primeras investigaciones</h3><p>Resolución de problemas, reglas y estrategias computacionales.</p></article>
+                        <article><span>1970–1990</span><h3>Sistemas expertos</h3><p>Creación de sistemas especializados y mayor interés en métodos basados en conocimiento.</p></article>
+                        <article><span>SIGLO XXI</span><h3>Aprendizaje profundo</h3><p>Más datos, capacidad de cómputo y nuevas arquitecturas impulsan visión y lenguaje.</p></article>
+                        <article><span>ACTUALIDAD</span><h3>IA generativa</h3><p>Modelos capaces de generar contenido y apoyar actividades educativas y profesionales.</p></article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-last">
+                <div class="container">
+                    <div class="section-intro center">
+                        <span class="eyebrow">TRES TÉRMINOS CLAVE</span>
+                        <h2>No todo es exactamente lo mismo.</h2>
+                    </div>
+
+                    <div class="image-card-grid">
+                        <article class="image-card">
+                            <img src="imagenes/ia4.jpg" alt="Aprendizaje automático">
+                            <div><span>01</span><h3>Aprendizaje automático</h3><p>Métodos que permiten aprender patrones a partir de datos para resolver tareas específicas.</p></div>
+                        </article>
+                        <article class="image-card">
+                            <img src="imagenes/ia5.jpg" alt="Aprendizaje profundo">
+                            <div><span>02</span><h3>Aprendizaje profundo</h3><p>Utiliza redes neuronales con múltiples capas para trabajar con problemas complejos.</p></div>
+                        </article>
+                        <article class="image-card">
+                            <img src="imagenes/ia6.jpg" alt="IA generativa">
+                            <div><span>03</span><h3>IA generativa</h3><p>Puede producir texto, imágenes, código, audio y otros contenidos a partir de instrucciones.</p></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==================== APLICACIONES ==================== -->
+        <section class="page-section" id="aplicaciones" hidden>
+            <section class="inner-hero">
+                <div class="container inner-hero-grid">
+                    <div>
+                        <span class="eyebrow">03 / APLICACIONES</span>
+                        <h1>La IA ya está presente en distintos ámbitos.</h1>
+                        <p>La utilidad de un sistema depende del problema que se busca resolver, los datos disponibles, su diseño y la forma en que se revisan sus resultados.</p>
+                    </div>
+                    <div class="inner-hero-image"><img src="imagenes/ia4.jpg" alt="Aplicaciones de IA"></div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container applications-grid">
+                    <article class="application-feature">
+                        <img src="imagenes/ia4.jpg" alt="IA en educación">
+                        <div><span class="card-label">01 · EDUCACIÓN</span><h2>Aprender con herramientas inteligentes.</h2><p>Puede apoyar la creación de ejercicios, explicaciones, organización de materiales y experiencias de aprendizaje personalizadas.</p><ul><li>Práctica personalizada</li><li>Retroalimentación</li><li>Apoyo para materiales</li></ul></div>
+                    </article>
+                    <article class="application-card"><img src="imagenes/ia5.jpg" alt="IA en salud"><div><span>02</span><h3>Salud</h3><p>Apoyo para análisis de imágenes, información clínica y procesos de investigación, siempre con revisión profesional.</p></div></article>
+                    <article class="application-card"><img src="imagenes/ia6.jpg" alt="IA en industria"><div><span>03</span><h3>Industria</h3><p>Análisis de sensores, detección de anomalías, mantenimiento predictivo y optimización de procesos.</p></div></article>
+                    <article class="application-card"><img src="imagenes/ia1.jpg" alt="IA en la vida cotidiana"><div><span>04</span><h3>Vida cotidiana</h3><p>Recomendaciones, buscadores, traducción, asistentes, filtros de correo y reconocimiento de imágenes.</p></div></article>
+                </div>
+            </section>
+
+            <section class="section section-light">
+                <div class="container">
+                    <div class="section-intro center"><span class="eyebrow">COMPARACIÓN</span><h2>¿En qué tareas puede ayudar?</h2></div>
+                    <div class="data-table-wrap">
+                        <table>
+                            <thead><tr><th>Área</th><th>Ejemplo</th><th>Posible aporte</th></tr></thead>
+                            <tbody>
+                                <tr><td>Educación</td><td>Generación de ejercicios</td><td>Retroalimentación y apoyo personalizado</td></tr>
+                                <tr><td>Salud</td><td>Análisis de imágenes y datos</td><td>Apoyo para identificar patrones</td></tr>
+                                <tr><td>Industria</td><td>Mantenimiento predictivo</td><td>Mejor planeación de procesos</td></tr>
+                                <tr><td>Servicios</td><td>Asistentes y chatbots</td><td>Atención y automatización</td></tr>
+                                <tr><td>Creatividad</td><td>Generación de contenido</td><td>Exploración rápida de ideas</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-last">
+                <div class="container callout-card">
+                    <div><span class="eyebrow">PUNTO IMPORTANTE</span><h2>Una aplicación de IA no es automáticamente correcta.</h2><p>En tareas sensibles, sus resultados deben revisarse, sus datos deben protegerse y sus limitaciones deben conocerse.</p></div>
+                    <a href="#impacto" class="btn btn-primary">Ver ventajas y riesgos</a>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==================== IMPACTO ==================== -->
+        <section class="page-section" id="impacto" hidden>
+            <section class="inner-hero">
+                <div class="container inner-hero-grid">
+                    <div>
+                        <span class="eyebrow">04 / IMPACTO</span>
+                        <h1>Oportunidades y desafíos de la Inteligencia Artificial.</h1>
+                        <p>La IA puede facilitar tareas y abrir nuevas posibilidades, pero también plantea preguntas sobre errores, sesgos, privacidad y dependencia.</p>
+                    </div>
+                    <div class="inner-hero-image"><img src="imagenes/ia3.jpg" alt="Ventajas y riesgos de IA"></div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container impact-grid">
+                    <article class="impact-panel">
+                        <div class="impact-head"><span>VENTAJAS</span><h2>Lo que puede aportar</h2></div>
+                        <img src="imagenes/ia3.jpg" alt="Ventajas de la IA">
+                        <div class="impact-list">
+                            <div><b>01</b><p><strong>Automatización.</strong> Reduce tareas repetitivas y puede optimizar tiempos.</p></div>
+                            <div><b>02</b><p><strong>Análisis.</strong> Ayuda a encontrar patrones en grandes volúmenes de información.</p></div>
+                            <div><b>03</b><p><strong>Personalización.</strong> Puede adaptar recomendaciones y contenidos.</p></div>
+                            <div><b>04</b><p><strong>Nuevas herramientas.</strong> Apoya escritura, traducción, programación, creación y análisis.</p></div>
+                        </div>
+                    </article>
+
+                    <article class="impact-panel">
+                        <div class="impact-head"><span>RIESGOS Y DESAFÍOS</span><h2>Lo que debemos vigilar</h2></div>
+                        <img src="imagenes/ia6.jpg" alt="Riesgos de la IA">
+                        <div class="impact-list">
+                            <div><b>01</b><p><strong>Errores.</strong> Puede generar respuestas plausibles que sean incorrectas.</p></div>
+                            <div><b>02</b><p><strong>Sesgos.</strong> Los datos y decisiones de diseño pueden producir resultados desiguales.</p></div>
+                            <div><b>03</b><p><strong>Privacidad.</strong> La información personal requiere protección y reglas claras.</p></div>
+                            <div><b>04</b><p><strong>Dependencia.</strong> El uso excesivo puede reducir la revisión crítica.</p></div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="section section-light">
+                <div class="container">
+                    <div class="section-intro center"><span class="eyebrow">BUENAS PRÁCTICAS</span><h2>Usar IA con criterio cambia la experiencia.</h2></div>
+                    <div class="practice-grid">
+                        <article><span>01</span><h3>Verifica</h3><p>Compara información generada con fuentes confiables antes de emplearla en actividades importantes.</p></article>
+                        <article><span>02</span><h3>Protege</h3><p>No compartas contraseñas, datos personales o información sensible sin autorización.</p></article>
+                        <article><span>03</span><h3>Revisa</h3><p>Conserva el criterio humano, especialmente cuando una decisión tiene consecuencias importantes.</p></article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-last">
+                <div class="container impact-statement">
+                    <img src="imagenes/ia5.jpg" alt="Pensamiento crítico y tecnología">
+                    <div><span class="eyebrow">CONCLUSIÓN</span><h2>La responsabilidad también forma parte de la tecnología.</h2><p>Comprender capacidades y limitaciones permite aprovechar beneficios sin asumir que una herramienta es infalible.</p></div>
+                </div>
+            </section>
+        </section>
+
+        <!-- ==================== ETICA ==================== -->
+        <section class="page-section" id="etica" hidden>
+            <section class="inner-hero">
+                <div class="container inner-hero-grid">
+                    <div>
+                        <span class="eyebrow">05 / ÉTICA Y FUTURO</span>
+                        <h1>La tecnología también necesita criterio.</h1>
+                        <p>El desarrollo de la IA implica decisiones sobre datos, privacidad, seguridad, transparencia y el impacto de sus resultados en las personas.</p>
+                    </div>
+                    <div class="inner-hero-image"><img src="imagenes/ia5.jpg" alt="Ética y futuro de la IA"></div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container ethics-layout">
+                    <div class="ethics-copy">
+                        <span class="eyebrow">PREGUNTAS IMPORTANTES</span>
+                        <h2>Antes de utilizar una herramienta de IA, conviene preguntarse:</h2>
+                        <div class="questions">
+                            <div><span>01</span><p>¿Qué información estoy compartiendo?</p></div>
+                            <div><span>02</span><p>¿Puedo verificar el resultado con otra fuente?</p></div>
+                            <div><span>03</span><p>¿Qué personas podrían verse afectadas por este uso?</p></div>
+                            <div><span>04</span><p>¿Estoy utilizando la herramienta como apoyo y no como sustituto del criterio?</p></div>
+                        </div>
+                    </div>
+                    <div class="ethics-image"><img src="imagenes/ia6.jpg" alt="Futuro de la Inteligencia Artificial"></div>
+                </div>
+            </section>
+
+            <section class="section section-light">
+                <div class="container">
+                    <div class="section-intro center"><span class="eyebrow">MIRADA A FUTURO</span><h2>Una tecnología que seguirá evolucionando.</h2><p>Además de aprender a utilizarla, será importante desarrollar capacidades para evaluar información, reconocer límites y tomar decisiones responsables.</p></div>
+                    <div class="future-grid">
+                        <article><span>01</span><h3>Más integración</h3><p>La IA puede incorporarse en más plataformas y procesos educativos, profesionales y cotidianos.</p></article>
+                        <article><span>02</span><h3>Más criterio digital</h3><p>Será más importante saber distinguir información confiable de resultados que requieren comprobación.</p></article>
+                        <article><span>03</span><h3>Más responsabilidad</h3><p>Seguridad, privacidad, revisión y participación humana seguirán siendo fundamentales.</p></article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-last">
+                <div class="container quote-panel">
+                    <div class="quote-icon">“</div>
+                    <div><span class="eyebrow">MENSAJE FINAL</span><h2>Aprender IA también significa aprender a usarla con criterio.</h2><p>La tecnología adquiere mayor valor cuando se combina con conocimiento, verificación y pensamiento crítico.</p></div>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-branding">
+                <div class="footer-rights">
+                    <img src="imagenes/derechos reservados.png" alt="Derechos reservados">
+                </div>
+                <div class="footer-author">Hecho por <strong>Cesar Garcia Hernandez</strong></div>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><img src="imagenes/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><img src="imagenes/instagram.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const sections = document.querySelectorAll('.page-section');
+            const links = document.querySelectorAll('.nav-link');
+
+            const titles = {
+                inicio: 'Inteligencia Artificial | CBTIS 260',
+                conceptos: 'Conceptos de IA | CBTIS 260',
+                aplicaciones: 'Aplicaciones de IA | CBTIS 260',
+                impacto: 'Ventajas y riesgos | CBTIS 260',
+                etica: 'Ética y futuro | CBTIS 260'
+            };
+
+            function render() {
+                let id = location.hash.replace('#', '') || 'inicio';
+                let target = document.getElementById(id);
+
+                if (!target || !target.classList.contains('page-section')) {
+                    id = 'inicio';
+                    target = document.getElementById(id);
+                }
+
+                sections.forEach(section => {
+                    const visible = section.id === id;
+                    section.hidden = !visible;
+                    section.classList.toggle('active', visible);
+                });
+
+                links.forEach(link => {
+                    link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+                });
+
+                document.title = titles[id] || titles.inicio;
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            window.addEventListener('hashchange', render);
+            document.addEventListener('DOMContentLoaded', render);
+            render();
+        })();
+    </script>
+</body>
+</html>
